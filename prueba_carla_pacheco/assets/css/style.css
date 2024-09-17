@@ -6,21 +6,35 @@
 
 nav {
       background-color: rgb(233, 191, 136);
-      height: 100px;
+      height: 70px;
       display: flex;
       justify-content: end;
-      font-size: 21px;
+      font-size: 18px;
+      gap: 10px;
       width: 100%;
     & a {
         margin: auto 0;
         width: 16%;
+        
       }
     & :first-child {
         margin: auto 30px;
         width: 15%;
-        font-size: 27px;
+        font-size: 21px;
         border-right: solid 2px rgb(36, 33, 33);
+        border: 1px solid white;
+        border-radius: 15px;
     }
+
+    .nav-link {
+        border: 1px solid white;
+        border-radius: 15px;
+        width: 15em;
+        margin-right: 10px;
+        
+    }
+
+
 }
 
 header {
